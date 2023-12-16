@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- color of address bar in mobile browser -->
+  <meta name="theme-color" content="#F5C332">
+  <!-- favicon  -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link rel="shortcut icon" href="img/ui/logo.ico" type="image/x-icon"> -->
+  <!-- <link rel="shortcut icon"  href="http://needsmet.org/wp-content/uploads/2021/02/jcicon.jpg" type="image/x-icon"> -->
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/plugins/swiper.min.css">
+  <!-- datepicker css -->
+  <link rel="stylesheet" href="css/plugins/datepicker.css">
+  <!-- mapbox css -->
+  <link href="css/plugins/mapbox-style.css" rel='stylesheet'>
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+  <!-- needsmet css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- page title -->
+  <title>NeedsMet</title>
+</head>
+
+<body>
+  <!-- app wrapper -->
+  <div class="sb-app">
+    <!-- preloader -->
+    <div class="sb-preloader">
+      <div class="sb-preloader-bg"></div>
+      <div class="sb-preloader-body">
+        <div class="sb-loading">
+          <div class="sb-percent"><span class="sb-preloader-number" data-count="101">00</span><span>%</span></div>
+        </div>
+        <div class="sb-loading-bar">
+          <div class="sb-bar"></div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader end -->
+    <!-- click effect -->
+    <div class="sb-click-effect"></div>
+    <!-- loader -->
+    <div class="sb-load"></div>
+    <!-- top bar -->
+    <div class="sb-top-bar-frame">
+      <div class="sb-top-bar-bg"></div>
+      <div class="container">
+        <div class="sb-top-bar">
+          <a href="index.html" class="sb-logo-frame">
+            <!-- logo img -->
+            <img src="img/ui/cropped-needsmetSmall-e1613060504951.jpg" alt="needsmet">
+          </a>
+          <!-- menu -->
+          <div class="sb-right-side">
+            <nav id="sb-dynamic-menu" class="sb-menu-transition">
+              <ul class="sb-navigation">
+                <li class="sb-active sb-has-children">
+                  <a href="index.html">Home</a>
+                  <!-- <ul>
+                    <li><a href="home-1.html">Type 1</a></li>
+                    <li><a href="home-2.html">Type 2</a></li>
+                  </ul> -->
+                </li>
+                <li class="sb-has-children">
+                  <a href="services.html">Services</a>
+                  <!-- <ul>
+                    <li><a href="services.html">Menu style 1</a></li>
+                    <li><a href="menu-2.html">Menu style 2</a></li>
+                    <li><a href="menu-3.html">Menu style 3</a></li>
+                    <li><a href="menu-4.html">Menu style 4</a></li>
+                    <li><a href="menu-5.html">Menu style 5</a></li>
+                    <li><a href="menu-6.html">Menu style 6</a></li>
+                  </ul> -->
+                </li>
+                 <!-- <li class="sb-has-children">
+                  <a href="#">Case Studies</a>
+                  <ul>
+                    <li><a href="case-study-sparck.html">Sparck</a></li>
+                    <li><a href="case-study-multiplier.html">Multiplier</a></li>
+                    <li><a href="case-study-crossroad.html">CrossRoad</a></li>
+                    <li><a href="case-study-velop.html">Velop</a></li>
+                    <li><a href="case-study-famplify.html">Famplify</a></li>
+                    <li><a href="case-study-icm.html">ICM</a></li>
+                  </ul>
+                </li> -->
+                <li class="sb-has-children">
+                  <a href="about-1.html">About</a>
+                  <!-- <ul>
+                    <li><a href="about-1.html">About 1</a></li>
+                    <li><a href="about-2.html">About 2</a></li>
+                    <li><a href="blog-1.html">Blog style 1</a></li>
+                    <li><a href="blog-2.html">Blog style 2</a></li>
+                    <li><a href="blog-3.html">Blog style 3</a></li>
+                    <li><a href="publication-1.html">Publication 1</a></li>
+                    <li><a href="publication-2.html">Publication 2</a></li>
+                    <li><a href="publication-3.html">Publication 3</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery-2.html">Gallery 2</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="404.html">404</a></li>
+                  </ul> -->
+
+                </li>
+               
+                
+                <!-- <li class="sb-has-children">
+                  <a href="shop-1.html">Shop</a>
+                  <ul>
+                    <li><a href="shop-1.html">Shop style 1</a></li>
+                    <li><a href="shop-2.html">Shop style 2</a></li>
+                    <li><a href="shop-list-1.html">Shop list 1</a></li>
+                    <li><a href="shop-list-2.html">Shop list 2</a></li>
+                    <li><a href="product.html">Product page</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                  </ul>
+                </li> -->
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="sb-buttons-frame">
+              <!-- button -->
+              <!-- <div class="sb-btn sb-btn-2 sb-btn-gray sb-btn-icon sb-m-0 sb-btn-cart">
+                <span class="sb-icon">
+                  <img src="img/ui/icons/cart.svg" alt="icon">
+                </span>
+                <i class="sb-cart-number">5</i>
+              </div> -->
+              <!-- button end -->
+              <!-- menu btn -->
+              <div class="sb-menu-btn"><span></span></div>
+              <!-- info btn -->
+              <!-- <div class="sb-info-btn"><span></span></div> -->
+              <!-- dropdown arrow hide  -->
+              <!-- <div class="sb-info-btn"><i class="fa fa-sort-down"></i></div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- info bar -->
+      <div class="sb-info-bar">
+        <div class="sb-infobar-content">
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Contact</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <ul class="sb-list sb-mb-30">
+            <li><b>Address:</b><span>Spokane, WA</span></li>
+            <li><b>Working hours:</b><span>09:00 - 23:00</span></li>
+            <li><b>Phone:</b><span>509-252-0852</span></li>
+            <li><b>Email:</b><span> timk@needsmet.org</span></li>
+          </ul>
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Instagram</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <ul class="sb-instagram sb-mb-30">
+            <li><a href="#."><img src="img/instagram/insta1.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/insta2.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/insta3.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/insta4.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/insta5.jpg" alt="instagram"></a></li>
+            <li><a href="#."><img src="img/instagram/insta6.jpg" alt="instagram"></a></li>
+          </ul>
+          <hr>
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Latest Articles</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <a href="cloud-computing-5g-technology-1.html" class="sb-blog-card sb-blog-card-sm sb-mb-30">
+            <div class="sb-cover-frame">
+              <img src="img/blog/blog1.jpg" alt="cover">
+            </div>
+            <div class="sb-blog-card-descr">
+              <h5 class="sb-mb-5">Cloud computing 5G technology</h5>
+              <p class="sb-text sb-text-sm">Explore how cloud computing is revolutionizing the IT industry.</p>
+            </div>
+          </a>
+          <a href="software-engineer-build-software-2.html" class="sb-blog-card sb-blog-card-sm sb-mb-30">
+            <div class="sb-cover-frame">
+              <img src="img/blog/blog3.jpg" alt="cover">
+            </div>
+            <div class="sb-blog-card-descr">
+              <h5 class="sb-mb-5">Software engineers build software that people use</h5>
+              <p class="sb-text sb-text-sm">Learn about the role of software engineers in developing applications that have a meaningful impact on people's lives.</p>
+            </div>
+          </a>
+          <a href="cybersecurity-protected-your-data-3.html" class="sb-blog-card sb-blog-card-sm sb-mb-30">
+            <div class="sb-cover-frame">
+              <img src="img/blog/blog2.jpg" alt="cover">
+            </div>
+            <div class="sb-blog-card-descr">
+              <h5 class="sb-mb-5">Cybersecurity Best Practices for Protecting Your Data</h5>
+              <p class="sb-text sb-text-sm">Learn about essential cybersecurity measures for safeguarding your information.</p>
+            </div>
+          </a>
+        </div>
+        <div class="sb-info-bar-footer">
+          <ul class="sb-social">
+            <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- info bar end -->
+      <!-- minicart -->
+      <div class="sb-minicart">
+        <div class="sb-minicart-content">
+          <div class="sb-ib-title-frame sb-mb-30">
+            <h4>Your order.</h4><i class="fas fa-arrow-down"></i>
+          </div>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/4.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Saumon Gravlax</h4>
+              <div class="sb-price"><sub>$</sub> 9</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/1.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Chevrefrit au miel</h4>
+              <div class="sb-price"><sub>$</sub> 14</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/2.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Croustillant de poisson</h4>
+              <div class="sb-price"><sub>$</sub> 4</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/3.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Stracciatella</h4>
+              <div class="sb-price"><sub>$</sub> 11</div>
+            </div>
+          </a>
+          <a href="product.html" class="sb-menu-item sb-menu-item-sm sb-mb-15">
+            <div class="sb-cover-frame">
+              <img src="img/menu/5.jpg" alt="product">
+            </div>
+            <div class="sb-card-tp">
+              <h4 class="sb-card-title">Carpaccio de daurade</h4>
+              <div class="sb-price"><sub>$</sub> 19</div>
+            </div>
+          </a>
+        </div>
+        <div class="sb-minicart-footer">
+          <!-- button -->
+          <a href="cart.html" class="sb-btn sb-btn-gray sb-btn-text">
+            <span>View order</span>
+          </a>
+          <!-- button end -->
+          <!-- button -->
+          <a href="checkout.html" class="sb-btn sb-btn-text">
+            <span>Checkout</span>
+          </a>
+          <!-- button end -->
+        </div>
+      </div>
+      <!-- minicart end -->
+    </div>
+    <!-- top bar end -->
+
+    <!-- dynamic content -->
+    <div id="sb-dynamic-content" class="sb-transition-fade">
+
+      <!-- banner -->
+      <section class="sb-banner">
+        <div class="sb-bg-1">
+          <div></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- main title -->
+              <div class="sb-main-title-frame">
+                <div class="sb-main-title">
+                  <!-- <span class="sb-suptitle sb-mb-30">Hi, new friend!</span> -->
+                  <h1 class="sb-mb-30">
+                    CUSTOM SOFTWARE SOLUTIONS
+                  </h1>
+                  <p class="sb-text sb-text-lg sb-mb-30">Getting an application out of the box is rarely the best fit
+                    for organizations. At NeedsMet we create and develop innovative technology solutions that empower
+                    organizations. Our goal is to create useful technology to enable people to reach their potential.
+                    Our experience over the last 20+ years enables us to help you identify the best fit for your
+                    specific needs.</p>
+                  <!-- button -->
+                  <a href="services.html" class="sb-btn">
+                    <span class="sb-icon">
+                      <img src="img/ui/icons/icons8-hammer-64 (1).png" alt="icon" >
+                    </span>
+                    <span style="color: white;">Our Services</span>
+                  </a>
+                  <!-- button end -->
+                  <!-- button -->
+                  <a href="about-1.html" class="sb-btn sb-btn-2 sb-btn-gray">
+                    <span class="sb-icon">
+                      <img src="img/ui/icons/arrow.svg" alt="icon" style="color: white;">
+                    </span>
+                    <span style="color: black;">About us</span>
+                  </a>
+                  <!-- button end -->
+                </div>
+              </div>
+              <!-- main title end -->
+            </div>
+            <div class="col-lg-6">
+              <div class="sb-illustration-1">
+                <img src="img/illustrations/girl11.jpg" alt="girl" class="sb-girl">
+                <!-- <div class="sb-cirkle-1"></div> -->
+                <div class="sb-cirkle-2"></div>
+                <div class="sb-cirkle-3"></div>
+                <!-- <div class="sb-cirkle-4"></div> -->
+                <div class="sb-cirkle-5"></div>
+                <img src="img/illustrations/3.svg" alt="phones" class="sb-pik-1">
+                <img src="img/illustrations/1.svg" alt="phones" class="sb-pik-2">
+                <img src="img/illustrations/2.svg" alt="phones" class="sb-pik-3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+
+      <!-- features -->
+      <section class="sb-p-60-0">
+        <div class="container">
+          <div class="row flex-md-row-reverse">
+            <div class="col-lg-6 align-self-center sb-mb-30">
+              <!-- <h2 class="sb-mb-60">We are doing more than <br>you expect</h2> -->
+              <h2 class="sb-mb-60 underline-heading">Projects</h2>
+              <ul class="sb-features">
+                <li class="sb-features-item sb-mb-60">
+                  <div class="sb-number">01</div>
+                  <div class="sb-feature-text">
+                    <a href="img/images/Graphic-PNG-Transparent-background-colored-new.png" >
+                    <img src="img/images/Graphic-PNG-Transparent-background-colored-new - Copy.png" alt="image" class="" 
+                    >
+                    </a>
+                    <h3 class="sb-mb-15">Velop</h3>
+                    <p class="sb-text">Created a powerful online learning platform designed to equip groups and teams in
+                      any organization to achieve their potential. Velop can be used with online training, classes,
+                      courses, and any group activity that promotes learning and development.</p>
+                  </div>
+                </li>
+                <li class="sb-features-item sb-mb-60">
+                  <div class="sb-number">02</div>
+                  <div class="sb-feature-text">
+                    <a href="img/images/jcwebsmall-new.jpg" >
+                    <img src="img/images/jcwebsmall-new.jpg" alt="image" class="">
+                  </a>
+                    <h3 class="sb-mb-15">Job Connection</h3>
+                    <p class="sb-text">Created a job platform that connected job seekers and employers through
+                      mega-churches around the US. Included nationwide job search, resume builder and interest profiler
+                      tools. We created and developed it from scratch.</p>
+                  </div>
+                </li>
+                <li class="sb-features-item sb-mb-60">
+                  <div class="sb-number">03</div>
+                  <div class="sb-feature-text">
+                    <a href="img/images/external-content.duckduckgo-new.png">
+                    <img src="img/images/external-content.duckduckgo-new - Copy.png" alt="image" class=""
+                    >
+                    </a>
+                    <h3 class="sb-mb-15">Multipliers Library</h3>
+                    <p class="sb-text">We build a large digital library to collect, source and distribute resources to
+                      multiple organizations. We created a unique WordPress integration where specific resources could
+                      be multiplied on various organizations from a central hub.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 align-self-center">
+              <div class="sb-illustration-2 sb-mb-90">
+                <div class="sb-interior-frame">
+                  <img src="img/illustrations/indexpage.jpg" alt="interior" class="sb-interior">
+                </div>
+                <div class="sb-square"></div>
+                <div class="sb-cirkle-1"></div>
+                <div class="sb-cirkle-2"></div>
+                <div class="sb-cirkle-3"></div>
+                <div class="sb-cirkle-4"></div>
+                <div class="sb-experience">
+                  <div class="sb-exp-content">
+                    <p class="sb-h1 sb-mb-10">20</p>
+                    <p class="sb-h3">Years Experience</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features end -->
+
+
+     
+
+
+      <!-- categories -->
+      <section class="sb-p-0-60">
+        <div class="container">
+          <div class="sb-group-title sb-mb-30">
+            <div class="sb-left sb-mb-30">
+              <h2 class="sb-mb-30 underline-heading">Clients we have helped</h2>
+              <!-- <p class="sb-text">Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo modi.</p> -->
+            </div>
+            <div class="sb-right sb-mb-30">
+              <!-- button -->
+              <!-- <a href="shop-1.html" class="sb-btn sb-m-0">
+                <span class="sb-icon">
+                  <img src="img/ui/icons/arrow.svg" alt="icon">
+                </span>
+                <span>Go shopping now</span>
+              </a> -->
+              <!-- button end -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="img/categories/embassy.png" alt="icon">
+            </div>
+            <div class="col-lg-3">
+              <img src="img/categories/piedmont.png" alt="icon">
+            </div>
+            <div class="col-lg-3">
+              <img src="img/categories/external-content.duckduckgo.jpg" alt="icon">
+            </div>
+            <div class="col-lg-3">
+              <img src="img/categories/willowcreek.png" alt="icon">
+            </div>
+            <div class="col-lg-3 mt-5">
+              <img src="img/categories/crossroads_all_blk_horz-1-new - Copy.jpg" alt="icon">
+            </div>
+            <div class="col-lg-3 mt-5">
+              <img src="img/categories/second.png" alt="icon"  style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+            </div>
+            <!-- <div class="col-lg-3 mt-5">
+              <img src="img/categories/sl-start.png" alt="icon">
+            </div> -->
+            <!-- <div class="col-lg-3 mt-5">
+              <img src="img/categories/12stone.png" alt="icon">
+            
+            </div> -->
+            <div class="col-lg-3 mt-5" style="display: flex; justify-content: center; align-items: center;">
+              <img src="img/categories/logo-new-modified.png" alt="icon">
+            </div>
+             <div class="col-lg-3 mt-5" >
+              <img src="img/categories/sparcklogo-new-modified.png" alt="icon">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- categories end -->
+
+     
+
+  <!-- short menu -->
+  <section class="sb-short-menu sb-p-0-90">
+    <div class="container">
+      <div class="row"></div>
+      <div class="sb-group-title sb-mb-30">
+        <div class="sb-left sb-mb-30">
+          <h2 class="sb-mb-30">SERVICES</h2>
+          <p class="sb-text">We build custom software and apps that take your idea from concept to a complete
+            operational solution for a fraction of the typical time and cost. If you need an upgrade or a complete
+            redo of your technology we can help.<br><br>Some technologies we work in:<br><br>PHP, Node JS, React-JS,
+            TYPO3, Angular JS, HTML5, JQuery
+            Native App Development in iOS (Swift) and Android (Java)</p>
+        </div>
+        <div class="sb-right sb-mb-30">
+          <!-- slider navigation -->
+          <!-- <div class="sb-slider-nav">
+            <div class="sb-prev-btn sb-short-menu-prev"><i class="fas fa-arrow-left"></i></div>
+            <div class="sb-next-btn sb-short-menu-next"><i class="fas fa-arrow-right"></i></div>
+          </div> -->
+          <!-- slider navigation end -->
+          <!-- button -->
+          <!-- <a href="services.html" class="sb-btn">
+            <span class="sb-icon">
+              <img src="img/ui/icons/menu.svg" alt="icon">
+            </span>
+            <span>Full menu</span>
+          </a> -->
+          <!-- button end -->
+        </div>
+      </div>
+
+      <!-- <div class="swiper-container sb-short-menu-slider-4i">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a data-fancybox="menu" data-no-swup href="img/menu/3.jpg" class="sb-menu-item">
+              <div class="sb-cover-frame">
+                <img src="img/menu/3.jpg" alt="product">
+              </div>
+              <div class="sb-card-tp">
+                <h4 class="sb-card-title">Carpaccio de daurade</h4>
+                <div class="sb-price"><sub>$</sub> 14</div>
+              </div>
+              <div class="sb-description">
+                <p class="sb-text sb-mb-15"><span>tomatoes</span>, <span>nori</span>, <span>feta cheese</span>,
+                  <span>mushrooms</span>, <span>rice noodles</span>, <span>corn</span>, <span>shrimp</span>.
+                </p>
+                <ul class="sb-stars">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="menu" data-no-swup href="img/menu/1.jpg" class="sb-menu-item">
+              <div class="sb-cover-frame">
+                <img src="img/menu/1.jpg" alt="product">
+              </div>
+              <div class="sb-card-tp">
+                <h4 class="sb-card-title">Chevrefrit au miel</h4>
+                <div class="sb-price"><sub>$</sub> 14</div>
+              </div>
+              <div class="sb-description">
+                <p class="sb-text sb-mb-15"><span>tomatoes</span>, <span>nori</span>, <span>feta cheese</span>,
+                  <span>mushrooms</span>, <span>rice noodles</span>, <span>corn</span>, <span>shrimp</span>.
+                </p>
+                <ul class="sb-stars">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="menu" data-no-swup href="img/menu/2.jpg" class="sb-menu-item">
+              <div class="sb-cover-frame">
+                <img src="img/menu/2.jpg" alt="product">
+                <div class="sb-badge sb-vegan"><i class="fas fa-leaf"></i> Vegan</div>
+              </div>
+              <div class="sb-card-tp">
+                <h4 class="sb-card-title">Saumon Gravlax</h4>
+                <div class="sb-price"><sub>$</sub> 9</div>
+              </div>
+              <div class="sb-description">
+                <p class="sb-text sb-mb-15"><span>tomatoes</span>, <span>nori</span>, <span>feta cheese</span>,
+                  <span>mushrooms</span>, <span>rice noodles</span>, <span>corn</span>, <span>shrimp</span>.
+                </p>
+                <ul class="sb-stars">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="menu" data-no-swup href="img/menu/9.jpg" class="sb-menu-item">
+              <div class="sb-cover-frame">
+                <img src="img/menu/9.jpg" alt="product">
+                <div class="sb-badge sb-hot"><i class="fas fa-pepper-hot"></i> Hot</div>
+              </div>
+              <div class="sb-card-tp">
+                <h4 class="sb-card-title">Croustillant de poisson</h4>
+                <div class="sb-price"><sub>$</sub> 4</div>
+              </div>
+              <div class="sb-description">
+                <p class="sb-text sb-mb-15"><span>tomatoes</span>, <span>nori</span>, <span>feta cheese</span>,
+                  <span>mushrooms</span>, <span>rice noodles</span>, <span>corn</span>, <span>shrimp</span>.
+                </p>
+                <ul class="sb-stars">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="menu" data-no-swup href="img/menu/5.jpg" class="sb-menu-item">
+              <div class="sb-cover-frame">
+                <img src="img/menu/5.jpg" alt="product">
+                <div class="sb-badge sb-vegan"><i class="fas fa-leaf"></i> Vegan</div>
+              </div>
+              <div class="sb-card-tp">
+                <h4 class="sb-card-title">Carpaccio de daurade</h4>
+                <div class="sb-price"><sub>$</sub> 6</div>
+              </div>
+              <div class="sb-description">
+                <p class="sb-text sb-mb-15"><span>tomatoes</span>, <span>nori</span>, <span>feta cheese</span>,
+                  <span>mushrooms</span>, <span>rice noodles</span>, <span>corn</span>, <span>shrimp</span>.
+                </p>
+                <ul class="sb-stars">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a data-fancybox="menu" data-no-swup href="img/menu/4.jpg" class="sb-menu-item">
+              <div class="sb-cover-frame">
+                <img src="img/menu/4.jpg" alt="product">
+              </div>
+              <div class="sb-card-tp">
+                <h4 class="sb-card-title">Stracciatella</h4>
+                <div class="sb-price"><sub>$</sub> 11</div>
+              </div>
+              <div class="sb-description">
+                <p class="sb-text sb-mb-15"><span>tomatoes</span>, <span>nori</span>, <span>feta cheese</span>,
+                  <span>mushrooms</span>, <span>rice noodles</span>, <span>corn</span>, <span>shrimp</span>.
+                </p>
+                <ul class="sb-stars">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+  <!-- short menu end -->
+
+
+
+      <!-- team -->
+      <section class="sb-p-0-60">
+        <div class="container">
+          <div class="sb-group-title sb-mb-30">
+            <div class="sb-left sb-mb-30">
+              <h2 class="sb-mb-30">Are they any good?</h2>
+              <!-- <p class="sb-text">Consectetur numquam poro nemo veniam<br>eligendi rem adipisci quo modi.</p> -->
+            </div>
+            <div class="sb-right sb-mb-30">
+              <!-- button -->
+              <a href="about-1.html" class="sb-btn sb-m-0">
+                <span class="sb-icon" >
+                  <img  src="img/ui/icons/circled-up-right.png" alt="icon">
+                </span>
+                <span style="color: white;">More about us</span>
+              </a>
+              <!-- button end -->
+            </div>
+          </div>
+          <div class="quote-slider">
+            <!-- <div class="slide">
+                    <p  class="sb-text">"It was great working with the NeedsMet team. We came to them with an idea and they made it a
+                      reality! I had no experience developing an app but Tim made it easy for me to understand and learn
+                      exactly what needed to happen to make everything work."</p>
+                  <small>Hope M</small>
+            </div>
+            <div class="slide">
+                    <p  class="sb-text">"NeedsMet is responsive, supportive, and continues to enhance our technology. Without hesitation I
+                      highly recommend NeedsMet for your development needs."</p>
+                <small>Kevin M</small>
+            </div> -->
+            <div class="slide">
+                    <p  class="sb-text">"We worked with NeedsMet from the ground up and customized a site that we could not be more pleased with. We have experienced much success from it. They are always available to help out with any problems that we have.” </p>
+                  <small>Joseph P</small>
+            </div>
+            <!-- <div class="slide">
+                    <p  class="sb-text">"It was great working with the NeedsMet team. We came to them with an idea and they made it a
+                      reality! I had no experience developing an app but Tim made it easy for me to understand and learn
+                      exactly what needed to happen to make everything work."</p>
+                  <small>Hope M</small>
+            </div>
+            <div class="slide">
+                    <p  class="sb-text"> "NeedsMet is responsive, supportive, and continues to enhance our technology. Without hesitation I
+                      highly recommend NeedsMet for your development needs."</p>
+                  <small>Kevin M</small>
+            </div> -->
+          </div>
+          <!-- <div class="row">
+            <div class="col-lg-3">
+                <p class="sb-mb-30">needsmet is responsive, supportive, and continues to enhance our technology. Without hesitation I highly recommend needsmet for your development needs.</p>
+           
+              <div class="sb-team-member sb-mb-30">
+                <div class="sb-photo-frame sb-mb-15">
+                  <img src="img/team/1.png" alt="Team member">
+                </div>
+                <div class="sb-member-description">
+                  <h4 class="sb-mb-10">Paul Trueman</h4>
+                  <p class="sb-text sb-text-sm sb-mb-10">Chef</p>
+                  <ul class="sb-social">
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="sb-team-member sb-mb-30">
+                <div class="sb-photo-frame sb-mb-15">
+                  <img src="img/team/2.png" alt="Team member">
+                </div>
+                <div class="sb-member-description">
+                  <h3 class="sb-mb-10">Emma Newman</h3>
+                  <p class="sb-text sb-text-sm sb-mb-10">Assistant chef</p>
+                  <ul class="sb-social">
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="sb-team-member sb-mb-30">
+                <div class="sb-photo-frame sb-mb-15">
+                  <img src="img/team/3.png" alt="Team member">
+                </div>
+                <div class="sb-member-description">
+                  <h3 class="sb-mb-10">Oscar Oldman</h3>
+                  <p class="sb-text sb-text-sm sb-mb-10">Chef</p>
+                  <ul class="sb-social">
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="sb-team-member sb-mb-30">
+                <div class="sb-photo-frame sb-mb-15">
+                  <img src="img/team/4.png" alt="Team member">
+                </div>
+                <div class="sb-member-description">
+                  <h3 class="sb-mb-10">Ed Freeman</h3>
+                  <p class="sb-text sb-text-sm sb-mb-10">Assistant chef</p>
+                  <ul class="sb-social">
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                    <li><a href="#."><i class="far fa-circle"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <!-- team end -->
+
+      <!-- call to action -->
+      <section class="sb-call-to-action">
+        <div class="sb-bg-3"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="sb-cta-text">
+                <h2 class=" sb-mb-30">ABOUT</h2>
+                <h4>Vision</h4>
+                <p class="sb-text sb-mb-30">To see a world where technology enables people to reach their God-given potential.</p>
+                <h4>Mission</h4>
+                <p class="sb-text sb-mb-30">NeedsMet creates and develops innovative technology solutions to empower organizations and support God's work around the world.</p>
+                <h4>Values</h4>
+                <p class="sb-text">Integrity. We keep our word and conduct business in a Godly manner.</p>
+                <p class="sb-text">Innovation. We value new ideas and constantly improve our products.</p>
+                <p class="sb-text">Partnership. We join with organizations to see long-term success.</p>
+                <p class="sb-text">Excellence. We strive to do everything with quality.</p>
+                <p class="sb-text">Serving. We love to support our clients and have a passion to help them win.</p>
+                <p class="sb-text">God. We listen to His counsel and direct the company as He leads.</p>
+                <!-- <a href="#." target="_blank" data-no-swup class="sb-download-btn"><img src="img/buttons/1.svg"
+                    alt="img"></a>
+                <a href="#." target="_blank" data-no-swup class="sb-download-btn"><img src="img/buttons/2.svg"
+                    alt="img"></a> -->
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="sb-illustration-3">
+                <img src="img/illustrations/Mobile-App-1.png" alt="phones" class="sb-phones">
+                <!-- <div class="sb-cirkle-1"></div> -->
+                <div class="sb-cirkle-2"></div>
+                <div class="sb-cirkle-3"></div>
+                <div class="sb-cirkle-4"></div>
+                <img src="img/illustrations/1.svg" alt="phones" class="sb-pik-1">
+                <img src="img/illustrations/2.svg" alt="phones" class="sb-pik-2">
+                <img src="img/illustrations/3.svg" alt="phones" class="sb-pik-3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- call to action end -->
+
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          <div class="sb-footer-frame">
+            <a href="index.html" class="sb-logo-frame">
+              <!-- logo img -->
+              <img src="img/ui/cropped-needsmetSmall-e1613060504951.jpg" alt="needsmet">
+            </a>
+            <!-- <ul class="sb-social">
+              <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+            </ul> -->
+            <div class="sb-copy">&copy; 2023 NeedsMet All Rights Reserved.</div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+
+    </div>
+    <!-- dynamic content end -->
+
+    <!-- discount popup -->
+    <div class="sb-popup-frame">
+      <div class="sb-popup-body">
+        <div class="sb-close-popup">+</div>
+        <div class="sb-promo-content">
+          <div class="sb-text-frame">
+            <h3 class="sb-mb-15">Visit Needsmet and get your project quotation*</h3>
+            <h3 class="sb-mb-10"><b class="sb-h2">FOR FREE!</b></h3>
+            <p class="sb-text sb-text-sm sb-mb-15">*Experience exceptional service and value.</p>
+            <!-- button -->
+            <a href="services.html" class="sb-btn sb-ppc">
+              <span class="sb-icon">
+                <img src="img/ui/icons/circled-up-right.png" alt="icon">
+              </span>
+              <span>Get it now</span>
+            </a>
+            <!-- button end -->
+          </div>
+          <div class="sb-image-frame">
+            <div class="sb-illustration-5">
+              <img src="img/illustrations/360.jpg" alt="cup" class="sb-cup">
+              <div class="sb-cirkle-1"></div>
+              <div class="sb-cirkle-2"></div>
+              <div class="sb-cirkle-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- discount popup end -->
+
+  </div>
+  <!-- app wrapper end -->
+
+  <!-- jquery js -->
+  <script src="js/plugins/jquery.min.js"></script>
+  <!-- smooth scroll js -->
+  <script src="js/plugins/smooth-scroll.js"></script>
+  <!-- swup js -->
+  <script src="js/plugins/swup.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/plugins/swiper.min.js"></script>
+  <!-- datepicker js -->
+  <script src="js/plugins/datepicker.js"></script>
+  <!-- isotope js -->
+  <script src="js/plugins/isotope.js"></script>
+  <!-- sticky -->
+  <script src="js/plugins/sticky.js"></script>
+  <!-- mapbox js -->
+  <script src="js/plugins/mapbox.min.js"></script>
+  <!-- fancybox js -->
+  <script src="js/plugins/fancybox.min.js"></script>
+  <!-- needsmet js -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
